@@ -6,7 +6,7 @@ function coverter() {
   const convertida = document.querySelector(".valor-convertido");
   const eurohoje = 5.63;
   const dolarhoje = 5.2;
-const bithoje = 354.645
+const bithoje = 355.90044
 const librahoje = 6.68
 
   if (selecioneamoeda.value == "dolar") {
@@ -24,9 +24,8 @@ const librahoje = 6.68
 }
 
 if (selecioneamoeda.value == "btc"){
-convertida.innerHTML = new Intl.NumberFormat("pt-BR", {
-  style: "currency",
-  currency: "BTC",
+convertida.innerHTML = new Intl.NumberFormat("BTC", {
+  style: 'currency', currency: 'BTC', minimumFractionDigits: 4
 }).format(inputvalor/ bithoje);}
 
 if (selecioneamoeda.value == "libra"){
