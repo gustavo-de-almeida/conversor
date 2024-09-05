@@ -1,4 +1,4 @@
-
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -17,15 +17,15 @@ body {
   top: 0;
 }
 
-video {
-  min-height: 100%;
-  min-width: 100%;
+.back{
+  width: 100%;
+  height: 100%;
   position: fixed;
   top: 0;
 }
 
 .logogif {
-  width: 300px;
+  
   display: block;
   margin: 20px auto;
 }
@@ -33,12 +33,12 @@ video {
 main {
   width: 375px;
   border-radius: 20px;
-  background: #f4f4f4;
+  background: #20232E;
   margin: 0 auto 40px;
   padding: 44px 24px 23px;
 }
 label {
-  color: #777777;
+  color: #ffffff;
   font-weight: 400;
   font-size: 14px;
 }
@@ -59,12 +59,12 @@ input {
 }
 
 button {
-  background: #772fd3;
+  background: #F8E090;
   border-radius: 5px;
   border: none;
   width: 100%;
   height: 48px;
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
@@ -78,7 +78,7 @@ button :active {
 }
 
 section{
-border: 1px solid #772fd3;
+border: 1px solid #F8E090;
 border-radius: 20px;
 margin-top: 36px;
 padding: 12px;
@@ -108,7 +108,7 @@ font-size: 14px;
 
 
 .valor-pra-converter , .valor-convertido{
-  color: #555555;
+  color: #F8E090;
 font-weight: 700;
 font-size: 20px;
 
